@@ -157,12 +157,15 @@ footer p {
     
     .navbar-collapse{
         background-color:white;
+      list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
     
     .navbar-fixed {
     top: 0;
     z-index: 100;
-  position: fixed;
+    position: fixed;
     width: 100%;
     left: 0;
 }
@@ -184,6 +187,7 @@ footer p {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.9);
+        background-color:white;
     }
 
     .nav>li>a {
